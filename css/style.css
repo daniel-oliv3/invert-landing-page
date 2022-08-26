@@ -205,7 +205,8 @@ header::before {
   background-color: var(--character-top-image-color);
   bottom: -3px;
 
-  mask: var(--character-top-image-src) bottom / contain no-repeat;
+ 
+  mask: var(--character-top-image-src) bottom / 100% no-repeat;
   -webkit-mask: var(--character-top-image-src) bottom / 100% no-repeat;
 }
 
