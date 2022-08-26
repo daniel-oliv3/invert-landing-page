@@ -10,14 +10,14 @@
 </head>
 <body>
 
-<!-- ======= / ======= -->
+<!-- ======= Header/Cabeçalho ======= -->
 <header>
 	<audio id="music" autoplay>
 		<source src="assets/musics/normal-world.mpeg" />
 	</audio>
 
 	<div class="header-content">
-		<img src="assets/img/banner/logo.svg" alt="Imagem principal">
+		<img class="invert-element" src="assets/img/banner/logo.svg" alt="Imagem principal">
 		<p class="invert-element" role="text">
 			Uma jornada para quem não tem medo do desconhecido. O caminho para o 
 			Mundo invertido é incerto, repleto de obstáculos e perigos. Porém, a 
@@ -25,16 +25,24 @@
 			Vecna. Voçê está preparado? Então clique no botão abaixo para entrar
 			no Mundo invertido.
 		</p>
+		<button id="switch-theme-button" onclick="switchTheme()">Inverter Mundos</button>
 	</div>
+
+	<div id="top-characters" class="world-characters"></div>
 </header>
 
 
-<!-- ======= / ======= -->
+<!-- ======= Main/Conteúdo Principal ======= -->
 <main></main>
 
 
-<!-- ======= / ======= -->
-<footer></footer>
+<!-- ======= Footer/Rodapé ======= -->
+<footer>
+	<p>
+		Projeto contruído para fins didáticos, com objetivo de colocar em prática os conhecimentos de HTML, CSS e JavaScript.
+	</p>
+	<img src="assets/img/footer/logo.svg" alt="Logotipo DIO">
+</footer>
 
 
 	
