@@ -202,7 +202,7 @@ header::before {
 
 .world-characters#top-characters {
   height: 100%;
-  background-color: red;
+  background-color: var(--character-top-image-color);
   bottom: -3px;
 
  
