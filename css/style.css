@@ -425,14 +425,6 @@ footer::after {
 
 
 
-
-
-
-
-
-
-
-
 /* ======= Responsive/Responsividade ======= */
 @media (max-width: 991px) {
   html {
@@ -441,6 +433,7 @@ footer::after {
 }
 
 @media (max-width: 768px) {
+
 }
 
 @media (max-width: 450px) {
